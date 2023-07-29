@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="UTF-8">
+
+<meta property="og:type" content="article" />
+ <title>WW2 Abandoned</title>
+<meta property="og:url" content="https://ww2archives.github.io" />
+<meta property="og:description" content="Abandoned Masterpieces from WW2" />
+<meta property="og:site_name" content="aniruddhxd" />
+<meta property="og:image" content="image.png" />
+<link rel="icon" href="images/utilityimg/icon.png" />
+
+
+	
+	<style>
+		/* Gallery container */
+		#gallery {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+		}
+		
+		/* Image container */
+		.image-container {
+			display: none;
+			align-items: center;
+			flex-direction: column;
+		}
+		
+		/* Minimized images container */
+		#minimized-container {
+			display: none;
+			flex-wrap: wrap;
+			align-items: center;
+			justify-content: center;
+		}
+		
+		/* Minimized image style */
+		#minimized-container img {
+			width: 100px;
+			height: 100px;
+			margin: 10px;
+			cursor: pointer;
+		}
+		
+		/* Visible class for minimized images container */
+		.visible {
+			display: flex;
+		}
+	</style>
+	
+
+
+
+<body>
+
+
+<link rel='stylesheet' id='wp-block-library-css' href='https://w41k3r.com/wp-includes/css/dist/block-library/style.min.css' type='text/css' media='all' />
+<style id='wp-block-library-inline-css' type='text/css'>
+.has-text-align-justify{text-align:justify;}
+</style>
+<link rel='stylesheet' id='wp-block-library-theme-css' href='https://w41k3r.com/wp-includes/css/dist/block-library/theme.min.css' type='text/css' media='all' />
+<link rel='stylesheet' id='styleice-css' href='https://w41k3r.com/wp-content/themes/walker/ice/icm.css?ver=4.0.0' type='text/css' media='all' />
+<link rel='stylesheet' id='style2020-css' href='https://w41k3r.com/wp-content/themes/walker/style-2020.css?ver=3.2.1' type='text/css' media='all' />
+<link rel='stylesheet' id='glitch-image-css' href='https://w41k3r.com/wp-content/themes/walker/style-glitch-image.css?ver=3.2.1' type='text/css' media='all' />
+<link rel='stylesheet' id='jetpack_css-css' href='https://w41k3r.com/wp-content/plugins/jetpack/css/jetpack.css?ver=8.7.1' type='text/css' media='all' />
+<script type='text/javascript' src='https://w41k3r.com/wp-includes/js/jquery/jquery.min.js?ver=3.5.1' id='jquery-core-js'></script>
+<script type='text/javascript' src='https://w41k3r.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2' id='jquery-migrate-js'></script>
+<script type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js' id='jquery-old-js'></script>
+<script type='text/javascript' src='https://w41k3r.com/wp-content/themes/walker/modals/js/modernizr.custom.js?ver=2.6.2' id='modernizr-js'></script>
+
+
+
+<style type='text/css'>img#wpstats{display:none}</style>
+
+
+
+<script async src='/cdn-cgi/bm/cv/669835187/api.js'></script>
+<body class="page-template page-template-page-login page-template-page-login-php page page-id-6 page-parent">
+
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MW3PP5C"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+
+
+</div>
+</div>
+<div id="container">
+<div id="site">
+<div class="w">
+<header class='custom-header-alt'>
+<div id="nav" class="menu-logged-out-menu-container"><ul id="menu-logged-out-menu" class="menu"><li id="menu-item-107" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-107">&nbsp;</li>
+</ul></div>
+</header>
+
+                  
+<div style="text-align: center;">
+<img alt="errr" src="images/utilityimg/icon.png" style="width:70px;height:70px;" />
+<h2>World War 2 Abandoned</h2>
+<div style="margin-top:1rem;opacity:0.7">
+<p> Latest and Coloured Images of WW2 Abandoned Infra</p>
+<p>&nbsp;</p>
+</div>
+</div>
+
+<br>
+<br>
+	<!-- Gallery container -->
+	<div id="gallery">
+		<!-- Image containers -->
+		<div id="image-1" class="image-container">
+			<img src="images/imagesmain/image1.png">
+			<p>Image 1 information goes here.</p>
+		</div>
+		<div id="image-2" class="image-container">
+			<img src="images/image2.png">
+			<p>Image 2 information goes here.</p>
+		</div>
+		<div id="image-3" class="image-container">
+			<img src="images/image3.png">
+			<p>Image 3 information goes here.</p>
+		</div>
+		<div id="image-4" class="image-container">
+			<img src="images/image4.png">
+			<p>Image 4 information goes here.</p>
+		</div>
+		<br>
+		<!-- Navigation arrows -->
+		<div>
+			<button onclick="prevImage()">Prev</button>
+			<button onclick="nextImage()">Next</button>
+		</div>
+		
+		
+		
+	</div>
+	
+	<script>
+		// Image gallery logic
+		var currentImage = 1;
+		var totalImages = 4;
+		
+		// Show the initial image
+		showImage("image-1");
+		
+		// Functions to navigate between images
+		function prevImage() {
+			currentImage--;
+			if (currentImage < 1) {
+				currentImage = totalImages;
+			}
+			showImage("image-" + currentImage);
+		}
+		
+		function nextImage() {
+			currentImage++;
+			if (currentImage > totalImages) {
+				currentImage = 1;
+			}
+			showImage("image-" + currentImage);
+		}
+		
+		// Function to show an image and hide the others
+		function showImage(id) {
+			// Hide all images
+			for (var i = 1; i <= totalImages; i++) {
+				document.getElementById("image-" + i).style.display = "none";
+
+		}
+		// Show the selected image
+		document.getElementById(id).style.display = "flex";
+		// Hide the minimized container
+		
+	
+	
+	
+}
+</script>
+
+</body>
+</html>

@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="UTF-8">
+
+<meta property="og:type" content="article" />
+ <title>WW2 Abandoned</title>
+<meta property="og:url" content="https://ww2archives.github.io" />
+<meta property="og:description" content="Abandoned Masterpieces from WW2" />
+<meta property="og:site_name" content="aniruddhxd" />
+<meta property="og:image" content="image.png" />
+<link rel="icon" href="images/utilityimg/icon.png" />
+
+	<!-- Load Leaflet library and stylesheets -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.min.css" />
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.min.js"></script>
+	<style>
+		body {
+			background-color: #f1f1f1;
+		}
+		
+		.dark-mode {
+			background-color: #222;
+			color: #fff;
+		}
+		
+		.dark-mode #mapid {
+			background-color: #000;
+		}
+	</style>
+</head>
+
+
+<body>
+
+	<h1>WW2 Archives Map</h1>
+	<!-- Create a map container -->
+	<div id="mapid" style="height: 500px;"></div>
+	
+	<button onclick="toggleDarkMode()">Toggle Dark Mode</button>
+
+	<!-- Load script to create the map -->
+	<script>
+		var mymap = L.map('mapid').setView([51.505, -0.09], 2);
+// set view last var is zoom 
+		L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+		    attribution: '&copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors',
+		    maxZoom: 18,
+		}).addTo(mymap);
+
+		//MOST IMPORTANT!!!! THIS IS WHERE ALL THE MARKERS PICS AND STUFF AREEEEE
+		
+		
+		// Add markers for each location that you want to display images for
+		//INFRA NEW
+		//1
+L.marker([39.0080751, 8.9938012]).addTo(mymap)
+  .bindPopup("<a href='infranew.html#image-1' target='_blank'><img src='images/infranew/image1.jpg' alt='image' width='200' height='200'></a>")
+  .on('click', function() {
+    this.openPopup();
+  });
+  //2
+  L.marker([47.46, 13.50]).addTo(mymap)
+  .bindPopup("<a href='infranew.html#image-2' target='_blank'><img src='images/infranew/image2.jpg' alt='image' width='200' height='200'></a>")
+  .on('click', function() {
+    this.openPopup();
+  });
+  
+  //3
+  L.marker([47.6141675, 16.5082297]).addTo(mymap)
+  .bindPopup("<a href='infranew.html#image-3' target='_blank'><img src='images/infranew/image3.jpg' alt='image' width='200' height='200'></a>")
+  
+
+  .on('click', function() {
+    this.openPopup();
+  });
+  
+  //4
+  L.marker([37.6165481, -122.5493479]).addTo(mymap)
+  .bindPopup("<a href='infranew.html#image-4' target='_blank'><img src='images/infranew/image4.jpg' alt='image' width='200' height='200'></a>")
+  
+
+  .on('click', function() {
+    this.openPopup();
+  });
+  
+  //5
+  
+   L.marker([47.5544073, -122.7735792]).addTo(mymap)
+  .bindPopup("<a href='infranew.html#image-5' target='_blank'><img src='images/infranew/image5.png' alt='image' width='200' height='200'></a>")
+   .on('click', function() {
+    this.openPopup();
+  });
+
+  
+  //6
+  
+   L.marker([6.968328,158.2093292]).addTo(mymap)
+  .bindPopup("<a href='infranew.html#image-6' target='_blank'><img src='images/infranew/image6.jpg' alt='image' width='200' height='200'></a>")
+  
+
+  .on('click', function() {
+    this.openPopup();
+  });
+
+//7
+  
+   L.marker([54.7224275,16.6657115]).addTo(mymap)
+  .bindPopup("<a href='infranew.html#image-7' target='_blank'><img src='images/infranew/image7.png' alt='image' width='200' height='200'></a>")
+   .on('click', function() {
+    this.openPopup();
+  });
+  
+  
+  //8
+  
+    L.marker([59.9235053,23.3144276]).addTo(mymap)
+  .bindPopup("<a href='infranew.html#image-8' target='_blank'><img src='images/infranew/image8.png' alt='image' width='200' height='200'></a>")
+   .on('click', function() {
+    this.openPopup();
+  });
+  
+  //9
+  
+    L.marker([45.2978977,15.7486509]).addTo(mymap)
+  .bindPopup("<a href='infranew.html#image-8' target='_blank'><img src='images/infranew/image9.png' alt='image' width='200' height='200'></a>")
+   .on('click', function() {
+    this.openPopup();
+  });
+  
+  
+  //10
+  
+    L.marker([43.8114154,15.5843203]).addTo(mymap)
+  .bindPopup("<a href='infranew.html#image-8' target='_blank'><img src='images/infranew/image10.png' alt='image' width='200' height='200'></a>")
+   .on('click', function() {
+    this.openPopup();
+  });
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+		// Repeat for each location that you want to display images for
+		
+		function toggleDarkMode() {
+			var body = document.body;
+			body.classList.toggle("dark-mode");
+		}
+	</script>
+	<div style="text-align: center;">
+	<h3> Click on the icon to view images</h3>
+	<h4> Do note that images are clickable, and will redirect to show relevant info</h4>
+	
+	</div>
+</body>
+</html>
